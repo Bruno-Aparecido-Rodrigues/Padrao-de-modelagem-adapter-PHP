@@ -54,7 +54,7 @@ echo $book->getPage(); // 2
 Os testes automatizados do próprio repositório (`Tests/AdapterTest.php`) cobrem esse cenário e podem ser executados com:
 
 ```bash
-vendor/bin/phpunit Structural/Adapter/Tests/AdapterTest.php
+php -d error_reporting=E_ALL^E_DEPRECATED vendor/bin/phpunit Structural/Adapter/Tests/AdapterTest.php
 ```
 
 ## 7. Estrutura final do diretório
