@@ -1,4 +1,4 @@
-# Atividade — Padrão de Projeto Adapter (Structural/Adapter)
+# Atividade Padrão de modelagem de projetos Adapter
 
 Alunos - Bruno Aparecido e Igor Nogueira
 
@@ -57,7 +57,7 @@ Os testes automatizados do próprio repositório (`Tests/AdapterTest.php`) cobre
 php -d error_reporting=E_ALL^E_DEPRECATED vendor/bin/phpunit Structural/Adapter/Tests/AdapterTest.php
 ```
 
-## 7. Estrutura final do diretório
+## 6. Estrutura final do diretório
 
 ```
 Padrao-de-modelagem-adapter-PHP/
