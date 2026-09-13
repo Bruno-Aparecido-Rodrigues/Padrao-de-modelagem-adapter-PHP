@@ -39,8 +39,8 @@ O código cliente conhece apenas a interface `Book`. Uma instância de `Kindle` 
 Com o adapter, o cliente passa a usar `Kindle` como se fosse um `Book` comum:
 
 ```php
-use \Structural\Adapter\Kindle;
-use \Structural\Adapter\EBookAdapter;
+use DesignPatterns\Structural\Adapter\Kindle;
+use DesignPatterns\Structural\Adapter\EBookAdapter;
 
 $kindle = new Kindle();
 $book = new EBookAdapter($kindle);
