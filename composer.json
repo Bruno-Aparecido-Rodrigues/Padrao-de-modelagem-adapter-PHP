@@ -1,0 +1,25 @@
+{
+    "name": "domnikl/design-patterns-php",
+    "description": "Sample code for the Adapter design pattern in PHP",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Dominik Liebler",
+            "email": "liebler.dominik@googlemail.com"
+        },
+        {
+            "name": "Borislav Sabev",
+            "email": "39cn9aod@mailer.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "classmap": ["Structural"]
+    }
+}

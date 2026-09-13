@@ -5,8 +5,8 @@ Alunos - Bruno Aparecido e Igor Nogueira
 ## 1. Clonagem do repositório
 
 ```bash
-git clone https://github.com/DesignPatternsPHP/DesignPatternsPHP.git
-cd DesignPatternsPHP
+git clone https://github.com/Bruno-Aparecido-Rodrigues/Padrao-de-modelagem-adapter-PHP
+cd Padrao-de-modelagem-adapter-PHP
 ```
 
 ## 2. Instalar dependência
@@ -39,8 +39,8 @@ O código cliente conhece apenas a interface `Book`. Uma instância de `Kindle` 
 Com o adapter, o cliente passa a usar `Kindle` como se fosse um `Book` comum:
 
 ```php
-use DesignPatterns\Structural\Adapter\Kindle;
-use DesignPatterns\Structural\Adapter\EBookAdapter;
+use \Structural\Adapter\Kindle;
+use \Structural\Adapter\EBookAdapter;
 
 $kindle = new Kindle();
 $book = new EBookAdapter($kindle);
@@ -60,7 +60,7 @@ php -d error_reporting=E_ALL^E_DEPRECATED vendor/bin/phpunit Structural/Adapter/
 ## 7. Estrutura final do diretório
 
 ```
-DesignPatternsPHP/
+Padrao-de-modelagem-adapter-PHP/
 └── Structural/
     └── Adapter/
         ├── Book.php
